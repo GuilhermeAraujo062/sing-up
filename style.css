@@ -1,0 +1,62 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+@font-face {
+    font-family: 'Ragellia';
+    src: url('fontes/Ragellia\ Mellinda.otf');
+    font-weight: 400;
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+:root {
+    --cor01: #6746B6;
+    --cor02: #7F55DA;
+    --cor03: #37266B;
+
+    --fonte-padrao: 'Poppins', sans-serif;
+
+}
+
+/*Estilo da Página*/
+
+body {
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+    color: white;
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    background-color: #7f55da7a;
+
+    backdrop-filter: blur(2px);
+    backdrop-filter: brightness(60%);
+    backdrop-filter: contrast(40%);
+    backdrop-filter: drop-shadow(4px 4px 10px blue);
+    backdrop-filter: grayscale(30%);
+    backdrop-filter: hue-rotate(120deg);
+    backdrop-filter: invert(70%);
+    backdrop-filter: opacity(20%);
+    backdrop-filter: sepia(90%);
+    backdrop-filter: saturate(80%);
+
+    padding: 200px;
+    max-width: 300px;
+    margin: 200px auto;
+    border-radius: 20px;
+}
+
+h1#titulo{
+    
+}

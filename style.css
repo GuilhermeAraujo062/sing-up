@@ -37,7 +37,7 @@ body {
     background-attachment: fixed;
 }
 
-section {
+#menu {
     background-color: #7f55da7a;
 
     backdrop-filter: blur(2px);
@@ -51,12 +51,8 @@ section {
     backdrop-filter: sepia(90%);
     backdrop-filter: saturate(80%);
 
-    padding: 200px;
+    padding: 100px;
     max-width: 300px;
     margin: 200px auto;
-    border-radius: 20px;
-}
-
-h1#titulo{
-    
+    border-radius: 20px
 }

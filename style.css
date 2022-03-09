@@ -11,6 +11,7 @@
 * {
     padding: 0;
     margin: 0;
+    
     line-height: 1.2em;
     text-decoration: none;
 }
@@ -26,10 +27,13 @@
 
 /*Estilo da Página*/
 
-body {
+html, body {
     background-color: var(--cor01);
     font-family: var(--fonte-padrao);
     color: white;
+    max-height: 100vh;
+    margin: 50px;
+
     background-image: url(imagens/fundo.png);
     background-repeat: no-repeat;
     background-position: right center;
@@ -38,21 +42,60 @@ body {
 }
 
 #menu {
-    background-color: #7f55da7a;
-
-    backdrop-filter: blur(2px);
-    backdrop-filter: brightness(60%);
-    backdrop-filter: contrast(40%);
-    backdrop-filter: drop-shadow(4px 4px 10px blue);
-    backdrop-filter: grayscale(30%);
-    backdrop-filter: hue-rotate(120deg);
-    backdrop-filter: invert(70%);
-    backdrop-filter: opacity(20%);
-    backdrop-filter: sepia(90%);
-    backdrop-filter: saturate(80%);
-
-    padding: 100px;
     max-width: 300px;
-    margin: 200px auto;
-    border-radius: 20px
+    padding: 10vh;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    padding: 10px;
+}
+
+label, input {
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    background-color: #6746B6;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 25px #6d48ddd2;
+    text-align: center;
+    
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15vh;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.055);
+    box-shadow: 0px 0px 25px #6d48dd54;
+    transition-duration: 0.2s;
+    cursor: pointer;
 }
